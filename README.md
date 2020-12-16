@@ -1,4 +1,4 @@
-Pixelvation enables people to create high-quality LED art using open source tools
+**Pixelvation enables people to create high-quality LED art using open source tools**
 
 This GitHub repository is the current home of Pixelvation and will be updated whenever there's some significant new development.  To get notified on significant new developments, set up an alert on new releases here, or follow [@PixelvationRGB on Twitter](https://twitter.com/PixelvationRgb).
 
@@ -42,11 +42,11 @@ The I2S Input code has some room for improvement, as it's very inefficient with 
 
 [Click to watch demo video on Vimeo](https://vimeo.com/491391639/f8f3a9616e)
 
-I ordered hardware version V0.1 assembled from JLCPCB, and out of eight boards that I functionally tested, seven of them were working, and one has an undiagnosed problem.  The solder pad under the ESP32 should be using a [smaller squares for solder paste](https://twitter.com/GregDavill/status/1326309124565467136) instead of the one large square it's currently using, as the large square can lead to problems.  I don't plan on making any major changes to the pinout or functionality of the board at this point, but I may move to a 4-layer board, and shrink the board width by 0.1"/0.2" if possible.
+I ordered hardware version V0.1 assembled from [JLCPCB](https://jlcpcb.com) (10 pieces ~$70 plus shipping), and out of eight boards that I functionally tested, seven of them were working, and one has an undiagnosed problem.  The solder pad under the ESP32 should be using a [smaller squares for solder paste](https://twitter.com/GregDavill/status/1326309124565467136) instead of the one large square it's currently using, as the large square can lead to problems.  I don't plan on making any major changes to the pinout or functionality of the board at this point, but I may move to a 4-layer board, and shrink the board width by 0.1"/0.2" if possible.
 
 ### More Details
 
-The hardware is posted in [Hardware/Pixelvation Engine], HUB75 firmware is [in a separate repo](https://github.com/Pixelvation/PixelvationEngine_HUB75) and more details are in  [the Wiki](wiki).
+The hardware is posted in [Hardware/Pixelvation Engine], HUB75 firmware is [in a separate repo](https://github.com/Pixelvation/PixelvationEngine_HUB75) and more details are in  [the Wiki](https://github.com/Pixelvation/Pixelvation/wiki).
 
 
 
