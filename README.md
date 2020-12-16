@@ -46,7 +46,7 @@ I ordered hardware version V0.1 assembled from [JLCPCB](https://jlcpcb.com) (10 
 
 ### More Details
 
-The hardware is posted in [Hardware/Pixelvation Engine](Hardware/Pixelvation Engine), HUB75 firmware is [in a separate repo](https://github.com/Pixelvation/PixelvationEngine_HUB75) and more details are in  [the Wiki](https://github.com/Pixelvation/Pixelvation/wiki).
+The hardware is posted in [Hardware/Pixelvation Engine](https://github.com/Pixelvation/Pixelvation/tree/master/Hardware/Pixelvation%20Engine), HUB75 firmware is [in a separate repo](https://github.com/Pixelvation/PixelvationEngine_HUB75) and more details are in  [the Wiki](https://github.com/Pixelvation/Pixelvation/wiki).
 
 ## About Pixelvation
 
