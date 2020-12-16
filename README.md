@@ -30,7 +30,7 @@ To program Pixelvation Engine you need a USB-Serial adapter.  This functionality
 
 ### Status
 
-Currently Pixelvation Engine has been tested driving HUB75 panels up to 64x64 pixels, with APA102 input sources from [Pixelblaze (V1-V3)](https://www.crowdsupply.com/hencke-technologies/pixelblaze-v3), [WLED's sound reactive fork](https://github.com/Aircoookie/WLED/pull/794) compiled with APA102 output and running on an ESP32 Dev board, and a Fadecandy-inspired USB to APA102 output board currently in development.
+Currently Pixelvation Engine has been tested driving HUB75 panels up to 64x64 pixels, with APA102 input sources from [Pixelblaze (V1-V3)](https://www.crowdsupply.com/hencke-technologies/pixelblaze-v3), [WLED's sound reactive fork](https://github.com/atuline/WLED/) compiled with APA102 output and running on an ESP32 Dev board, and a Fadecandy-inspired USB to APA102 output board currently in development.
 
 Pixelvation Engine uses [SmartMatrix Library 4.0's](https://github.com/pixelmatix/SmartMatrix) ESP32 support for driving HUB75 panels, and is able to drive a 64x64 HUB75 panel with 36-bit color, at 240Hz.  It's possible to drive a 128x64 HUB75 panel with the same color settings, but it requires additional hardware outside the Pixelvation Engine (this is being prototyped now).
 
