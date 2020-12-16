@@ -24,15 +24,15 @@ Pixelvation Engine has 16 outputs buffered to 5V levels, and an extra 3.3V outpu
 
 Pixelvation Engine is based around the ESP32, which has enough RAM, CPU power, and DMA functionality to deal with a lot of LED data, and some unique I2S peripherals that allow for receiving a fast stream of serial or parallel LED data as input, and setting up another stream of parallel LED data as output.
 
-To program Pixelvation Engine you need a USB-Serial adapter.  This functionality was purposely left off the board to save space and cost, and ideally these features are only needed when setting up a project.  The programming pins on the input side were designed around the ESP-01 pinout, so cheap ESP-01 programmers can be used.  Specifically [this ESP-01 programmer](https://www.amazon.com/ESP-01S-Programmer-Adapter-Wireless-4-5-5-5V/dp/B07V556Q82) has the most functionality and is the easiest to use on its own, is widely available, and with a couple jumper wires added becomes even more functional.
+To program Pixelvation Engine you need a USB-Serial adapter.  This functionality was purposely left off the board to save space and cost, and ideally these features are only needed when setting up a project.  The programming pins on the input side were designed around the ESP-01 pinout, so cheap ESP-01 programmers can be used.  Specifically [this ESP-01 programmer](https://www.amazon.com/ESP-01S-Programmer-Adapter-Wireless-4-5-5-5V/dp/B07V556Q82) ([cheaper on Aliexpress](https://www.aliexpress.com/item/32882742790.html))  has the most functionality and is the easiest to use on its own, is widely available, and with a couple jumper wires added becomes even more functional.
 
 ![Pixelvation Engine Programmer](https://raw.githubusercontent.com/wiki/Pixelvation/Pixelvation/photos/PixelvationEngineProgrammer.jpg)
 
 ### Status
 
-Currently Pixelvation Engine has been tested driving HUB75 panels up to 64x64 pixels, with APA102 input sources from Pixelblaze (V1-V3), WLED's soundreactive fork compiled with APA102 output and running on an ESP32 Dev board, and a Fadecandy-inspired USB to APA102 output board currently in development.
+Currently Pixelvation Engine has been tested driving HUB75 panels up to 64x64 pixels, with APA102 input sources from [Pixelblaze (V1-V3)](https://www.crowdsupply.com/hencke-technologies/pixelblaze-v3), [WLED's sound reactive fork](https://github.com/Aircoookie/WLED/pull/794) compiled with APA102 output and running on an ESP32 Dev board, and a Fadecandy-inspired USB to APA102 output board currently in development.
 
-Pixelvation Engine uses SmartMatrix Library 4.0's ESP32 support for driving HUB75 panels, and is able to drive a 64x64 HUB75 panel with 36-bit color, at 240Hz.  It's possible to drive a 128x64 HUB75 panel with the same color settings, but it requires additional hardware outside the Pixelvation Engine (this is being prototyped now).
+Pixelvation Engine uses [SmartMatrix Library 4.0's](https://github.com/pixelmatix/SmartMatrix) ESP32 support for driving HUB75 panels, and is able to drive a 64x64 HUB75 panel with 36-bit color, at 240Hz.  It's possible to drive a 128x64 HUB75 panel with the same color settings, but it requires additional hardware outside the Pixelvation Engine (this is being prototyped now).
 
 The addressable LED output functionality hasn't been tested yet.  
 
@@ -47,8 +47,6 @@ I ordered hardware version V0.1 assembled from [JLCPCB](https://jlcpcb.com) (10 
 ### More Details
 
 The hardware is posted in [Hardware/Pixelvation Engine], HUB75 firmware is [in a separate repo](https://github.com/Pixelvation/PixelvationEngine_HUB75) and more details are in  [the Wiki](https://github.com/Pixelvation/Pixelvation/wiki).
-
-
 
 ## About Pixelvation
 
