@@ -1,6 +1,6 @@
 Pixelvation enables people to create high-quality LED art using open source tools
 
-This GitHub repository is the current home of Pixelvation and will be updated whenever there's some significant new development.  To get notified on significant new developments, set up an alert on new releases here, or follow @PixelvationRGB on Twitter.
+This GitHub repository is the current home of Pixelvation and will be updated whenever there's some significant new development.  To get notified on significant new developments, set up an alert on new releases here, or follow [@PixelvationRGB on Twitter](https://twitter.com/PixelvationRgb).
 
 I'll set up a forum or Discord server at some point, but for now, feel free to open a GitHub Issue, or post to [SmartMatrix Community](https://community.pixelmatix.com) if you have any questions or want to discuss anything.
 
